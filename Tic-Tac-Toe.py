@@ -14,6 +14,7 @@ def check_winner(board, player):
         [board[0][0], board[1][1], board[2][2]],
         [board[2][0], board[1][1], board[0][2]],
     ]
+    #lol
     return [player, player, player] in win_conditions
 
 def tic_tac_toe():
